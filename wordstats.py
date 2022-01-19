@@ -8,8 +8,23 @@ def is_vowel(letter):
     assert(len(letter) == 1)
     return letter.lower() in ['a', 'e', 'i', 'o', 'u', 'y']
 
+def vowel_anayze(list):
+    num_of_vowel = 0
+    for word in list:
+        if word[0] in ['a', 'e', 'i', 'o', 'u', 'y']:
+            num_of_vowel += 1
+
+    return num_of_vowel
+
+    
+
 if __name__ == "__main__":
 
     words = full_text.split()
+    num_of_words = len(words)
+    num_of_vowel = vowel_anayze(words)
+
+    print("Num of words: %d /t Num of vowels: %d",num_of_words,num_of_vowel)
+
 
 
