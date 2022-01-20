@@ -26,5 +26,7 @@ if __name__ == "__main__":
 
     print("Num of words: %d /t Num of vowels: %d",num_of_words,num_of_vowel)
 
+    #penis poilu
+
 
 
